@@ -1,0 +1,108 @@
+{
+  "groups": [
+    {
+      "name": "nus.alioss",
+      "type": "com.nus.properties.AliOssProperties",
+      "sourceType": "com.nus.properties.AliOssProperties"
+    },
+    {
+      "name": "nus.jwt",
+      "type": "com.nus.properties.JwtProperties",
+      "sourceType": "com.nus.properties.JwtProperties"
+    },
+    {
+      "name": "nus.wechat",
+      "type": "com.nus.properties.WeChatProperties",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "nus.alioss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.AliOssProperties"
+    },
+    {
+      "name": "nus.alioss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.AliOssProperties"
+    },
+    {
+      "name": "nus.alioss.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.AliOssProperties"
+    },
+    {
+      "name": "nus.alioss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.AliOssProperties"
+    },
+    {
+      "name": "nus.jwt.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.JwtProperties"
+    },
+    {
+      "name": "nus.jwt.secret-key",
+      "type": "java.lang.String",
+      "description": "gengerate JWT token",
+      "sourceType": "com.nus.properties.JwtProperties"
+    },
+    {
+      "name": "nus.jwt.token-name",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.JwtProperties"
+    },
+    {
+      "name": "nus.jwt.ttl",
+      "type": "java.lang.Long",
+      "sourceType": "com.nus.properties.JwtProperties"
+    },
+    {
+      "name": "nus.wechat.api-v3-key",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    },
+    {
+      "name": "nus.wechat.appid",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    },
+    {
+      "name": "nus.wechat.mch-serial-no",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    },
+    {
+      "name": "nus.wechat.mchid",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    },
+    {
+      "name": "nus.wechat.notify-url",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    },
+    {
+      "name": "nus.wechat.private-key-file-path",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    },
+    {
+      "name": "nus.wechat.refund-notify-url",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    },
+    {
+      "name": "nus.wechat.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    },
+    {
+      "name": "nus.wechat.we-chat-pay-cert-file-path",
+      "type": "java.lang.String",
+      "sourceType": "com.nus.properties.WeChatProperties"
+    }
+  ],
+  "hints": []
+}
